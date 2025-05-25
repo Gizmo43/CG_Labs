@@ -128,28 +128,28 @@ void initializeDefaultScene(out STriangle triangles[10], out SSphere spheres[3])
     triangles[3].MaterialIdx = 3;
 
     //right
-    triangles[4].v1 = vec3(5.0,-5.0,-5.0);
-    triangles[4].v2 = vec3(5.0, 5.0, 5.0);
+    triangles[4].v1 = vec3(5.0, 5.0, 5.0);
+    triangles[4].v2 = vec3(5.0,-5.0,-5.0);
     triangles[4].v3 = vec3(5.0, 5.0,-5.0);
     triangles[4].MaterialIdx = 4;
-    triangles[5].v1 = vec3(5.0,-5.0,-5.0);
-    triangles[5].v2 = vec3(5.0,-5.0, 5.0);
+    triangles[5].v1 = vec3(5.0,-5.0, 5.0);
+    triangles[5].v2 = vec3(5.0,-5.0,-5.0);
     triangles[5].v3 = vec3(5.0, 5.0, 5.0);
     triangles[5].MaterialIdx = 0;
 
     //top
-    triangles[6].v1 = vec3(-5.0, 5.0,-5.0);
-    triangles[6].v2 = vec3( 5.0, 5.0, 5.0);
+    triangles[6].v1 = vec3( 5.0, 5.0, 5.0);
+    triangles[6].v2 = vec3(-5.0, 5.0,-5.0);
     triangles[6].v3 = vec3(-5.0, 5.0, 5.0);
     triangles[6].MaterialIdx = 0;
-    triangles[7].v1 = vec3( 5.0, 5.0,-5.0);
-    triangles[7].v2 = vec3( 5.0, 5.0, 5.0);
+    triangles[7].v1 = vec3( 5.0, 5.0, 5.0);
+    triangles[7].v2 = vec3( 5.0, 5.0,-5.0);
     triangles[7].v3 = vec3(-5.0, 5.0,-5.0);
     triangles[7].MaterialIdx = 1;
 
     //bottom
-    triangles[8].v1 = vec3(-5.0,-5.0,-5.0);
-    triangles[8].v2 = vec3(-5.0,-5.0, 5.0);
+    triangles[8].v1 = vec3(-5.0,-5.0, 5.0);
+    triangles[8].v2 = vec3(-5.0,-5.0,-5.0);
     triangles[8].v3 = vec3( 5.0,-5.0,-5.0);
     triangles[8].MaterialIdx = 4;
     triangles[9].v1 = vec3( 5.0,-5.0, 5.0);
@@ -161,7 +161,7 @@ void initializeDefaultScene(out STriangle triangles[10], out SSphere spheres[3])
     spheres[0].Center = vec3(-1.0,2.0,2.0);
     spheres[0].Radius = 1.5;
     spheres[0].MaterialIdx = 5;
-    spheres[1].Center = vec3(3.0,1.0,2.0);
+    spheres[1].Center = vec3(2.5,0.0,2.0);
     spheres[1].Radius = 2.5;
     spheres[1].MaterialIdx = 4;
     spheres[2].Center = vec3(-2.0,0.0,-2.5);
